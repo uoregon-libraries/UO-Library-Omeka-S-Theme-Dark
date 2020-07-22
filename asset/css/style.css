@@ -817,6 +817,7 @@
     }
     footer {
         padding: 0 3.38983% 30px;
+        clear: both;
     }
     header nav {
         margin: 15px auto 0;
