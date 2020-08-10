@@ -4,6 +4,7 @@ $escape = $this->plugin('escapeHtml');
 $this->htmlElement('body')->appendAttribute('class', 'item resource show');
 $embedMedia = $this->siteSetting('item_media_embed', false);
 $itemMedia = $item->media();
+
 $hideMedia = $this->themeSetting('hide_media_embed', false);
 $viewer = $this->themeSetting('viewer', 'default');
 ?>
@@ -11,6 +12,7 @@ $viewer = $this->themeSetting('viewer', 'default');
 <?php echo $this->pageTitle($item->displayTitle(), 2); ?>
 <h3><?php echo $translate('Item'); ?></h3>
 <?php $this->trigger('view.show.before'); ?>
+<?php if ($viewer === 'default'): ?>
 <?php if ($embedMedia && $itemMedia): ?>
     <div class="media-embeds">
     <?php foreach ($itemMedia as $media):
@@ -18,14 +20,16 @@ $viewer = $this->themeSetting('viewer', 'default');
     endforeach;
     ?>
     </div>
+<?php endif; ?>
 <?php elseif ($itemMedia): ?>
-<?php switch($viewer): ?>
-<?php case 'mirador': ?>
+<?php switch($viewer):
+    case 'mirador': ?>
     <?php echo $this->mirador($item); ?>
-<?php break; ?>
-<?php case 'universal': ?>
+    <?php break;
+    case 'universal': ?>
     <?php echo $this->universalViewer($item); ?>
-<?php endswitch ?>
+    <?php break;
+    endswitch; ?>
 <?php endif; ?>
 <?php echo $item->displayValues(); ?>
 <div class="property">
