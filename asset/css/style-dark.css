@@ -1,0 +1,304 @@
+/* Dark theme */
+/*@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');*/
+* {
+    font-family: "BenchNine", sans-serif;
+    line-height: 1.5;
+}
+header {
+    background-color: #fff;
+    color: black;
+    border-bottom: 1px solid #fff;
+    background: #262626;
+}
+
+header .row #search form input {
+    background: transparent;
+    color: #fff;
+}
+header .row #search form button {
+    background: transparent;
+    border: 1px solid #fff;
+}
+header .row #search form button:before {
+    color: #fff;
+}
+header .row #search form input:focus,
+header .row #search form input:active {
+    outline: none;
+}
+header .row #search form button:focus,
+header .row #search form button:active {
+    outline: none;
+}
+header nav .navigation li a {
+    color: #fff !important;
+    text-decoration: none;
+}
+header nav ul.navigation > li > ul {
+    background-color: #262626;
+}
+header nav ul.navigation > li > ul li a {
+    color: #333 !important;
+}
+
+@media screen and (min-width: 768px) {
+    header nav ul.navigation > li:hover > ul,
+    header nav ul.navigation > li > ul.open {
+        background: #f8f8f8;
+        background: #dedede;
+    }
+}
+
+#user-bar .admin {
+    background-color: inherit;
+}
+#user-bar a:link {
+    text-decoration: none;
+}
+#user-bar a:hover {
+    text-decoration: underline;
+}
+
+/*Content*/
+#content .blocks {
+    background-color: #444;
+}
+#content .blocks p {
+    color: #fff;
+}
+#content .blocks p a {
+    color: #fff;
+}
+#content .blocks ul {
+    border: 0px solid #30afa3;
+}
+#content .blocks ul li {
+    list-style-color: #30afa3;
+    color: #fff !important;
+}
+#content .blocks ul li:before {
+    background-color: #30afa3;
+}
+
+#content .blocks h2 {
+    color: #bdbdbd;
+}
+#content .blocks h2:before {
+    background: #30afa3 !important;
+}
+#content .blocks h2:after {
+    background: #30afa3 !important;
+}
+#content ul.resource-list .resource .description:after {
+    background: none;
+}
+#content .blocks .preview-block ul.resource-list li.item {
+    background-color: #111;
+    border-bottom: 1px solid #000;
+    box-shadow: 6px 3px 5px #716464;
+}
+#content .blocks .preview-block ul.resource-list li.item h4 a {
+    color: #30afa3;
+}
+#content .blocks .preview-block ul.resource-list li.item .description {
+    color: #fefefe;
+}
+#content .blocks .resource-list.preview + a {
+    background-color: #30afa3;
+    color: #fff;
+}
+#content .blocks .header-wrapper .container.mt-5 {
+    background: rgba(48, 175, 163, 0.4);
+}
+
+#content .blocks .header-wrapper .container.mt-5 h1 {
+    color: #fff;
+}
+
+#content .blocks .header-wrapper .container.mt-5 .btn.knowmore {
+    background-color: #fff;
+    color: #000;
+}
+#content .blocks .media-text {
+    background: rgba(62, 55, 55, 0.3);
+}
+#content .attachments .item.resource a {
+    background-color: #30afa3;
+    color: #fff;
+}
+#content .attachments .item.resource .media-render a {
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+#content .block-search form {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+#content .block-search form input {
+    background-color: transparent;
+}
+#content .block-search form input:focus {
+    outline: 0;
+}
+#content .block-search form button:focus {
+    outline: 0;
+}
+#content .block-search form button {
+    background: #000;
+    color: #fff;
+}
+#content ul#sharing-buttons {
+    background-image: url(../img/bg-sharing.jpg);
+}
+#content ul#sharing-buttons li#sharing-email a {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+#content ul#sharing-buttons li#sharing-embed a {
+    background-color: #30afa3;
+    border: 1px solid #30afa3;
+    color: #fff;
+}
+#content .site-page-pagination {
+    background: #000;
+}
+#content .site-page-pagination a {
+    background-color: #30afa3;
+    border: 1px solid #30afa3;
+    color: #fff;
+}
+/*footer*/
+footer {
+    background: #000;
+}
+footer #logos-sponsors-section {
+    color: #fff;
+}
+/*Document Page*/
+
+.browse {
+    background-color: #444;
+}
+#content .pagination {
+    color: red;
+}
+.browse #content span,
+.browse #content a,
+.browse #content h2 {
+    color: #fff;
+}
+.browse #content .browse-controls span {
+    color: #fff;
+}
+
+.browse #content ul.resource-list .resource {
+    background-color: #111;
+    border-bottom: 1px solid #000;
+    box-shadow: 6px 3px 5px #716464;
+}
+.browse #content ul.resource-list .resource h4 a {
+    color: #30afa3;
+}
+
+.browse #content ul.resource-list .resource .description {
+    color: #fefefe;
+}
+
+/*Contact Page*/
+.contact-us-block .field .field-meta {
+    color: #fff;
+}
+.contact-us-block .field input {
+    border: 1px solid #30afa3;
+}
+
+.contact-us-block form #submit {
+    background-color: #30afa3;
+    border: 1px solid #30afa3;
+    color: #fff;
+}
+
+/*Collect biblio page*/
+.field .field-meta {
+    color: #fff;
+}
+.field input {
+    border: 1px solid #30afa3;
+    box-shadow: 6px 4px 1px #30afa3;
+}
+
+input[type="submit"] {
+    background-color: #30afa3;
+    border: 1px solid #30afa3;
+    color: #fff;
+}
+
+.add-value {
+    color: #30afa3 !important;
+}
+
+/*Detail Page*/
+.show {
+    background-color: #444;
+}
+.show #content span,
+.show #content h3 {
+    color: #fff;
+}
+.show #content {
+    color: #fff;
+}
+.show #content .property h4 {
+    color: #fff;
+}
+.show #content .property h4 {
+    color: #30afa3;
+}
+.show #content .property .value {
+    color: #fff;
+}
+.show #content #item-linked th {
+    color: #30afa3;
+}
+.show .inputs p a {
+    color: #fff;
+}
+
+.show .fa.fa-tag {
+    background-color: #30afa3;
+    color: #fff;
+}
+
+/*item set page*/
+.item-set .value {
+    color: #fff !important;
+}
+.item-set h3,
+.item-set h4 {
+    color: #30afa3 !important;
+}
+
+footer #logos-sponsors-section {
+    color: #fff;
+}
+footer h2 {
+    color: #30afa3 !important;
+}
+footer p {
+    color: #fff;
+}
+footer a {
+    color: #fff !important;
+}
+
+footer #logos-col img {
+    filter: invert(1);
+}
+
+@media screen and (min-width: 768px) {
+    header nav ul.navigation > li:hover > ul,
+    header nav ul.navigation > li > ul.open {
+        background: #dedede;
+    }
+}

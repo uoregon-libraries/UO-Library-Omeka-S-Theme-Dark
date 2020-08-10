@@ -9,19 +9,21 @@ $this->headMeta()
     ->appendName('viewport', 'width=device-width, initial-scale=1');
 $this->headTitle($this->setting('installation_title', 'Omeka S'))->setSeparator(' · ');
 $this->headLink()
-    ->prependStylesheet($assetUrl('css/style.css'))
     ->prependStylesheet($assetUrl('css/iconfonts.css', 'Omeka'))
     ->prependStylesheet('//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,700')
     ->prependStylesheet('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
-    ->prependStylesheet('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+    ->prependStylesheet('https://use.fontawesome.com/releases/v5.8.1/css/all.css')
+    ->appendStylesheet($assetUrl('css/style.css'))
+    ->appendStylesheet($assetUrl('css/style-dark.css'))
+;
 $this->headScript()
-    ->prependFile($assetUrl('js/default.js'))
     ->prependFile($assetUrl('js/global.js', 'Omeka'))
     ->prependFile($assetUrl('vendor/jquery/jquery.min.js', 'Omeka'))
     ->prependFile('https://code.jquery.com/jquery-3.3.1.slim.min.js')
     ->prependFile('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
-    ->prependFile('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js');
-
+    ->prependFile('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+    ->appendFile($assetUrl('js/default.js'))
+;
 $this->trigger('view.layout');
 
 $title = $this->pageTitle($site->title());
