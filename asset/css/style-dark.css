@@ -1,15 +1,18 @@
 /* Dark theme */
 * {
     font-family: "BenchNine", sans-serif;
-    line-height: 1.5;
+    line-height: 2;
+    color: #fff;
 }
 body {
     background-color: #444;
 }
+a:link,
 a:visited {
     color: #ddd;
 }
 
+/* Header */
 header {
     background-color: #fff;
     color: black;
@@ -50,7 +53,9 @@ header nav ul.navigation > li > ul {
 header nav ul.navigation > li > ul li a {
     color: #333 !important;
 }
-
+#user-bar .admin {
+    background-color: inherit;
+}
 @media screen and (min-width: 768px) {
     header nav ul.navigation > li:hover > ul,
     header nav ul.navigation > li > ul.open {
@@ -58,8 +63,22 @@ header nav ul.navigation > li > ul li a {
     }
 }
 
-#user-bar .admin {
-    background-color: inherit;
+/* Footer */
+footer #logos-sponsors-section {
+    color: #fff;
+}
+footer h2 {
+    color: #30afa3 !important;
+}
+footer p {
+    color: #fff;
+}
+footer a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+footer #logos-col img {
+    filter: invert(1);
 }
 
 /*Content*/
@@ -96,9 +115,10 @@ header nav ul.navigation > li > ul li a {
     background: none;
 }
 #content .blocks .preview-block ul.resource-list li.item {
-    background-color: #111;
+    background-color: #555;
     border-bottom: 1px solid #000;
-    box-shadow: 6px 3px 5px #716464;
+    /* box-shadow: 6px 3px 5px #716464; */
+    padding: 12px;
 }
 #content .blocks .preview-block ul.resource-list li.item h4 a {
     color: #30afa3;
@@ -138,7 +158,7 @@ header nav ul.navigation > li > ul li a {
     border: 1px solid #444;
 }
 #content .block-search form input {
-    background-color: #716464;
+    background-color: #ababab;
 }
 #content .block-search form input:focus {
     outline: 0;
@@ -171,15 +191,16 @@ header nav ul.navigation > li > ul li a {
     border: 1px solid #30afa3;
     color: #fff;
 }
-/*footer*/
+
+/* Footer */
 footer {
     background: #000;
 }
 footer #logos-sponsors-section {
     color: #fff;
 }
-/*Document Page*/
 
+/* Document Page */
 .browse {
     background-color: #444;
 }
@@ -191,14 +212,22 @@ footer #logos-sponsors-section {
 .browse #content h2 {
     color: #fff;
 }
+.browse #content .filter span.filter-label,
+.browse #content .filter h2.filter-label {
+    color: #000;
+}
+.browse #content a.previous,
+.browse #content a.next {
+    color: #000;
+}
 .browse #content .browse-controls span {
     color: #fff;
 }
-
 .browse #content ul.resource-list .resource {
-    background-color: #111;
+    background-color: #555;
     border-bottom: 1px solid #000;
-    box-shadow: 6px 3px 5px #716464;
+    padding: 12px;
+    /* box-shadow: 6px 3px 5px #716464; */
 }
 .browse #content ul.resource-list .resource h4 a {
     color: #30afa3;
@@ -208,7 +237,7 @@ footer #logos-sponsors-section {
     color: #fefefe;
 }
 
-/*Contact Page*/
+/* ContactPage */
 .contact-us-block .field .field-meta {
     color: #fff;
 }
@@ -222,10 +251,11 @@ footer #logos-sponsors-section {
     color: #fff;
 }
 
-/*Collect biblio page*/
+/* Collect biblio page */
 .field .field-meta {
     color: #fff;
 }
+.field textarea,
 .field input {
     border: 1px solid #30afa3;
     box-shadow: 6px 4px 1px #30afa3;
@@ -241,7 +271,7 @@ input[type="submit"] {
     color: #30afa3 !important;
 }
 
-/*Detail Page*/
+/* Detail Page */
 .show {
     background-color: #444;
 }
@@ -273,7 +303,7 @@ input[type="submit"] {
     color: #fff;
 }
 
-/*item set page*/
+/* Item set page */
 .item-set .value {
     color: #fff !important;
 }
@@ -282,33 +312,10 @@ input[type="submit"] {
     color: #30afa3 !important;
 }
 
-footer #logos-sponsors-section {
-    color: #fff;
-}
-footer h2 {
-    color: #30afa3 !important;
-}
-footer p {
-    color: #fff;
-}
-footer a {
-    color: #fff !important;
-}
-
-footer #logos-col img {
-    filter: invert(1);
-}
-
-@media screen and (min-width: 768px) {
-    header nav ul.navigation > li:hover > ul,
-    header nav ul.navigation > li > ul.open {
-        background: #dedede;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    header nav ul.navigation > li:hover > ul:after, header nav ul.navigation > li > ul.open:after {
-        background-color: #dedede;
-        border-bottom: #fefefe;
-    }
+form button,
+form textarea,
+form select,
+form input {
+    background-color: #ababab;
+    color: #000;
 }

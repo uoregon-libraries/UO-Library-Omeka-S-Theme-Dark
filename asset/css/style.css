@@ -190,6 +190,7 @@
         position: relative;
         margin: 0 auto;
     }
+    header nav ul span,
     header nav ul a {
         display: inline-block;
         width: 100%;
@@ -294,7 +295,7 @@
         height: 45px;
     }
     .pagination .button {
-        border: 1px solid #dedede;
+        border: 1px solid #fefefe;
         background-color: #dedede;
         width: 45px;
         text-align: center;
@@ -1015,4 +1016,50 @@ a:hover {
 }
 #user-bar a:hover {
     text-decoration: underline;
+}
+
+footer {
+    padding-top: 40px;
+}
+footer h2 {
+    margin-bottom: 20px !important;
+    font-size: 20px !important;
+}
+footer p {
+    font-size: 15px;
+    margin-top: 20px !important;
+}
+footer #logos-sponsors-section {
+    width: 100%;
+    /* max-width: 100%; */
+    text-align: center;
+    flex: none;
+}
+@media screen and (max-width: 767px) {
+    footer #ankle {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 600px;
+    }
+    footer #logos-sponsors-section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer #logos-sponsors-section {
+        max-width: 600px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    footer #logos-sponsors-section {
+        max-width: 100%;
+    }
+}
+
+body.media {
+    display:initial;
 }
