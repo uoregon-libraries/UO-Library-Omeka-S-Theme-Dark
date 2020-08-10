@@ -54,19 +54,12 @@ header nav ul.navigation > li > ul li a {
 @media screen and (min-width: 768px) {
     header nav ul.navigation > li:hover > ul,
     header nav ul.navigation > li > ul.open {
-        background: #f8f8f8;
         background: #dedede;
     }
 }
 
 #user-bar .admin {
     background-color: inherit;
-}
-#user-bar a:link {
-    text-decoration: none;
-}
-#user-bar a:hover {
-    text-decoration: underline;
 }
 
 /*Content*/
