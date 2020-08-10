@@ -1,9 +1,15 @@
 /* Dark theme */
-/*@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');*/
 * {
     font-family: "BenchNine", sans-serif;
     line-height: 1.5;
 }
+body {
+    background-color: #444;
+}
+a:visited {
+    color: #ddd;
+}
+
 header {
     background-color: #fff;
     color: black;
@@ -32,6 +38,10 @@ header .row #search form button:active {
 }
 header nav .navigation li a {
     color: #fff !important;
+    text-decoration: none;
+}
+header nav .navigation li span {
+    color: #ccc !important;
     text-decoration: none;
 }
 header nav ul.navigation > li > ul {
@@ -131,11 +141,11 @@ header nav ul.navigation > li > ul li a {
     border: 1px solid #ddd;
 }
 #content .block-search form {
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: #444;
+    border: 1px solid #444;
 }
 #content .block-search form input {
-    background-color: transparent;
+    background-color: #716464;
 }
 #content .block-search form input:focus {
     outline: 0;
@@ -300,5 +310,12 @@ footer #logos-col img {
     header nav ul.navigation > li:hover > ul,
     header nav ul.navigation > li > ul.open {
         background: #dedede;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header nav ul.navigation > li:hover > ul:after, header nav ul.navigation > li > ul.open:after {
+        background-color: #dedede;
+        border-bottom: #fefefe;
     }
 }

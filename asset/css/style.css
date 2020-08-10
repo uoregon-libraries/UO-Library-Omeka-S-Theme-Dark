@@ -1003,3 +1003,7 @@
         padding-top: 29px;
     }
 }
+
+a:link {
+    text-decoration: none;
+}
