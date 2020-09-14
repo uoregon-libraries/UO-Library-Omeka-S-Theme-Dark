@@ -155,6 +155,24 @@
     .field-description {
         font-size: 15px;
     }
+    #skipnav {
+        position: fixed;
+        top: 30px;
+        left: 50%;
+        border: 1px solid #ababab;
+        transform: translateX(-50%);
+        z-index: -5;
+        padding: 7.5px;
+        background-color: #fff;
+        opacity: 0
+    }
+    #skipnav:focus {
+        z-index: 1000;
+        opacity: 1
+    }
+    header h1 {
+        margin: 0;
+    }
     header nav {
         position: relative;
         margin: 15px 0 -15px;
