@@ -53,8 +53,14 @@ header nav ul.navigation > li > ul {
 header nav ul.navigation > li > ul li a {
     color: #333 !important;
 }
+#user-bar .site-links,
 #user-bar .admin {
     background-color: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+#user-bar .admin.media {
+    display: inline;
 }
 @media screen and (min-width: 768px) {
     header nav ul.navigation > li:hover > ul,
