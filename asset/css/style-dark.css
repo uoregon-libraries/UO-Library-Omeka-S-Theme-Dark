@@ -323,3 +323,7 @@ form input {
 header .row #search form button[type="submit"] {
     min-width: 30px;
 }
+
+.breadcrumbs {
+    margin: 30px 0 15px;
+}
