@@ -74,7 +74,7 @@ footer #logos-sponsors-section {
     color: #fff;
 }
 footer h2 {
-    color: #30afa3 !important;
+    color: #00a5b5 !important;
 }
 footer p {
     color: #fff;
@@ -98,24 +98,24 @@ footer #logos-col img {
     color: #fff;
 }
 #content .blocks ul {
-    border: 0px solid #30afa3;
+    border: 0px solid #00a5b5;
 }
 #content .blocks ul li {
-    list-style-color: #30afa3;
+    list-style-color: #00a5b5;
     color: #fff !important;
 }
 #content .blocks ul li:before {
-    background-color: #30afa3;
+    background-color: #00a5b5;
 }
 
 #content .blocks h2 {
     color: #bdbdbd;
 }
 #content .blocks h2:before {
-    background: #30afa3 !important;
+    background: #00a5b5 !important;
 }
 #content .blocks h2:after {
-    background: #30afa3 !important;
+    background: #00a5b5 !important;
 }
 #content ul.resource-list .resource .description:after {
     background: none;
@@ -127,13 +127,13 @@ footer #logos-col img {
     padding: 12px;
 }
 #content .blocks .preview-block ul.resource-list li.item h4 a {
-    color: #30afa3;
+    color: #eee;
 }
 #content .blocks .preview-block ul.resource-list li.item .description {
     color: #fefefe;
 }
 #content .blocks .resource-list.preview + a {
-    background-color: #30afa3;
+    background-color: #00a5b5;
     color: #fff;
 }
 #content .blocks .header-wrapper .container.mt-5 {
@@ -152,7 +152,7 @@ footer #logos-col img {
     background: rgba(62, 55, 55, 0.3);
 }
 #content .attachments .item.resource a {
-    background-color: #30afa3;
+    background-color: #00a5b5;
     color: #fff;
 }
 #content .attachments .item.resource .media-render a {
@@ -185,16 +185,17 @@ footer #logos-col img {
 }
 
 #content ul#sharing-buttons li#sharing-embed a {
-    background-color: #30afa3;
-    border: 1px solid #30afa3;
+    background-color: #00a5b5;
+    border: 1px solid #00a5b5;
     color: #fff;
 }
 #content .site-page-pagination {
-    background: #000;
+    background: inherit;
+    text-align: right;
 }
 #content .site-page-pagination a {
-    background-color: #30afa3;
-    border: 1px solid #30afa3;
+    background-color: #00a5b5;
+    border: 1px solid #00a5b5;
     color: #fff;
 }
 
@@ -236,7 +237,7 @@ footer #logos-sponsors-section {
     /* box-shadow: 6px 3px 5px #716464; */
 }
 .browse #content ul.resource-list .resource h4 a {
-    color: #30afa3;
+    color: #00a5b5;
 }
 
 .browse #content ul.resource-list .resource .description {
@@ -248,12 +249,12 @@ footer #logos-sponsors-section {
     color: #fff;
 }
 .contact-us-block .field input {
-    border: 1px solid #30afa3;
+    border: 1px solid #00a5b5;
 }
 
 .contact-us-block form #submit {
-    background-color: #30afa3;
-    border: 1px solid #30afa3;
+    background-color: #00a5b5;
+    border: 1px solid #00a5b5;
     color: #fff;
 }
 
@@ -263,18 +264,18 @@ footer #logos-sponsors-section {
 }
 .field textarea,
 .field input {
-    border: 1px solid #30afa3;
-    box-shadow: 6px 4px 1px #30afa3;
+    border: 1px solid #00a5b5;
+    box-shadow: 6px 4px 1px #00a5b5;
 }
 
 input[type="submit"] {
-    background-color: #30afa3;
-    border: 1px solid #30afa3;
+    background-color: #00a5b5;
+    border: 1px solid #00a5b5;
     color: #fff;
 }
 
 .add-value {
-    color: #30afa3 !important;
+    color: #00a5b5 !important;
 }
 
 /* Detail Page */
@@ -292,20 +293,20 @@ input[type="submit"] {
     color: #fff;
 }
 .show #content .property h4 {
-    color: #30afa3;
+    color: #00a5b5;
 }
 .show #content .property .value {
     color: #fff;
 }
 .show #content #item-linked th {
-    color: #30afa3;
+    color: #00a5b5;
 }
 .show .inputs p a {
     color: #fff;
 }
 
 .show .fa.fa-tag {
-    background-color: #30afa3;
+    background-color: #00a5b5;
     color: #fff;
 }
 
@@ -315,7 +316,7 @@ input[type="submit"] {
 }
 .item-set h3,
 .item-set h4 {
-    color: #30afa3 !important;
+    color: #00a5b5 !important;
 }
 
 form button,
