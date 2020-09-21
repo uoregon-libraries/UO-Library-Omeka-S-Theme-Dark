@@ -184,6 +184,13 @@ footer #logos-col img {
     border: 1px solid #fff;
 }
 
+#content ul#sharing-buttons {
+    line-height: 20px;
+}
+#content ul#sharing-buttons li#sharing-twitter,
+#content ul#sharing-buttons li#sharing-tumblr {
+    margin-top: -7px;
+}
 #content ul#sharing-buttons li#sharing-embed a {
     background-color: #00a5b5;
     border: 1px solid #00a5b5;
