@@ -319,3 +319,7 @@ form input {
     background-color: #ababab;
     color: #000;
 }
+
+header .row #search form button[type="submit"] {
+    min-width: 30px;
+}
